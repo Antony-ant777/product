@@ -1,0 +1,47 @@
+body{
+    margin: 100px 200px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+   
+   
+}
+
+button{
+    background-color: rgb(181, 255, 69);
+    color: rgb(0, 0, 0);
+    text-align: end;
+   
+}
+button:hover{
+    background-color: aliceblue;
+    color: rgb(88, 132, 24);
+    
+}
+ 
+
+.main{
+    border: 2px solid rgb(255, 255, 255);
+    column-count: 2;
+    row-gap: 20px;
+    padding: 40px;
+    background-color: azure;  
+}
+
+.card{
+    padding: auto;
+    display: grid;
+    justify-content: center;
+    background-color: aliceblue;
+    position: relative;
+    top:10px;
+    
+}
+p{
+    text-align: center;
+}
+img{
+    padding: 30px;
+}
+.bt{
+  text-align: center;
+}
